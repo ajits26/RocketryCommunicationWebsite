@@ -1,7 +1,83 @@
-.me {
-    background-color: rgb(133, 176, 241);
-    .content{
-        border: 2px double 
-    }
+body {
+    background-color: rgb(13, 21, 34);
+}
+/*.rectangle-link {
+    width: 400px;
+    height: 180px;
+
+    margin-left: 100px;
+    margin-top: 50px;
+
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+
+    text-align: center;
+    padding-top: 20px;
+}*/
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
+.navbar {
+    display: flex; /*flex here is just a way to put things into the same rows*/
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6aa2c5;
+    padding: 15px 30px;
+}
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+.nav-links a {
+    color: rgb(212, 221, 241);
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 2s;
+}
+.nav-links a:hover {
+    background-color: #a4c7dd;
+    color: rgb(13, 21, 34);
+    border-radius: 6px;
+}
+.rectangle-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: 60px;
+
+    background-color: #a4c7dd;
+    color: rgb(13, 21, 34);
+
+    text-decoration: none;
+    border-radius: 8px;
+
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+.title-box {
+    width: min(1000px, 90%);
+    height: 150px;
+
+    margin: 40px auto;
+
+    background-color: #1c3849;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-box h1 {
+    color: rgb(212, 221, 241);
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+}
